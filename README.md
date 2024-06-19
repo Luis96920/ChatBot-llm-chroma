@@ -8,9 +8,6 @@ The main purpose here is to learn by doing. You'll see how different pieces like
 ### Quantized Model Integration
 This app uses what are called "quantized models." These are special because they are designed to work well on regular consumer hardware, like the kind most of us have at home or in our offices. Normally, the original versions of these models are really big and need more powerful computers to run them. But quantized models are optimized to be smaller and more efficient, without losing much performance. This means you can use this app and its features without needing a super powerful computer. Quantized Models from TheBloke.
 
-### Audio Chatting with Whisper AI
-Leveraging Whisper AI's robust transcription capabilities, this app offers a sophisticated audio messaging experience. The integration of Whisper AI allows for accurate interpretation and response to voice inputs, enhancing the natural flow of conversations. Whisper models.
-
 ### Image Chatting with LLaVA
 The app integrates LLaVA for image processing, which is essentially a fine-tuned LLaMA model equipped to understand image embeddings. These embeddings are generated using a CLIP model, making LLaVA function like a pipeline that brings together advanced text and image understanding. With LLaVA, the chat experience becomes more interactive and engaging, especially when it comes to handling and conversing about visual content. llama-cpp-python repo for Llava loading.
 
@@ -35,6 +32,13 @@ To get started with Local Multimodal AI Chat, clone the repository and follow th
 5.  **Customize config file**: Check the config file and change accordingly to the models you downloaded.Optional - Change Profile Pictures: Place your user_image.pnd and/or bot_image.png inside the chat_icons folder.
 6.  **Enter commands in terminal**:
 ```sh
-i.python3 database_operations.py 
+i.python3 database_operations.py
+```sh
 ii.streamlit run app.py
 ```
+
+### Contact Information
+For any questions, please contact me at:
+
+Email: gowthamchandu307@gmail.com
+
