@@ -35,6 +35,6 @@ To get started with Local Multimodal AI Chat, clone the repository and follow th
 5.  **Customize config file**: Check the config file and change accordingly to the models you downloaded.Optional - Change Profile Pictures: Place your user_image.pnd and/or bot_image.png inside the chat_icons folder.
 6.  **Enter commands in terminal**:
 ```sh
-i.python3 database_operations.py ```This will initialize the sqlite database for the chat sessions.
-```sh
-ii.streamlit run app.py```
+i.python3 database_operations.py 
+ii.streamlit run app.py
+```
