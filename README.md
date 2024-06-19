@@ -31,4 +31,10 @@ To get started with Local Multimodal AI Chat, clone the repository and follow th
    ```sh
    pip install -r requirements.txt
    ```
-
+4.  **Setting Up Local Models**:Download the models you want to implement. Here is the llava model I used for image chat (ggml-model-q5_k.gguf and mmproj-model-f16.gguf). And the quantized mistral model form TheBloke (mistral-7b-instruct-v0.1.Q5_K_M.gguf).
+5.  **Customize config file**: Check the config file and change accordingly to the models you downloaded.Optional - Change Profile Pictures: Place your user_image.pnd and/or bot_image.png inside the chat_icons folder.
+6.  **Enter commands in terminal**:
+```sh
+i.python3 database_operations.py ```This will initialize the sqlite database for the chat sessions.
+```sh
+ii.streamlit run app.py```
